@@ -12,6 +12,7 @@ body {
 opacity: 0;
 transition: opacity 3s;
 background: rgb(209, 215, 226);
+background-image: url(img/background2.jpg);
 }
 
 .hero {
@@ -55,7 +56,8 @@ padding: 4px;
 }
 
 ul a .active {
-color: #f4637b;
+color: #210ddb;
+
 }
 
 .nav .link ul a:hover {
@@ -153,15 +155,14 @@ border-radius: 6px;
 .card{
     border-radius: 10px;
     background-color: #f0f0f0;
-    width: 400 px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
-    height: 300px;
+    height: 350px;
 }
 
 
 .card-content{
     padding: 30px 30px;
-    line-height: 1.7;
+    /* line-height: 1.7; */
 }
  .card-content h3{
     font-size: 30px;
@@ -180,9 +181,40 @@ border-radius: 6px;
 .card-content .read-more{
     padding: 10px;
 }
+.card-content img{
+    height: 400px;
+    width: 350px;
+    border-radius: 8px 8px 0 0;
+}
 
+/* background image styling for the cards */
+
+#education{
+    background-image: url(img/educa..jpg);
+    object-fit: cover;
+    
+}
+#Skills{
+    background-image: url(img/skills.jpg);
+   
+}
+
+#Experience{
+    background-image: url(img/experience.jpg);
+    display: flex;
+    
+}
+#portfolio{
+    background-image: url(img/portfolio.jpg);
+}
+#about{
+    background-image: url(img/about2.jpg);
+    color: #fff;
+    font-size: 16px;
+    
+}
  .footer{
-    background-color: aqua;
+    background-color: #0b0b44;
     margin-top: 15px;
     margin-bottom: 10;
 
@@ -191,4 +223,5 @@ border-radius: 6px;
     text-align: center;
     font-size: 20px;
     padding: 4px;
+    color: #fff;
  }
